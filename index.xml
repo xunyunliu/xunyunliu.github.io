@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xunyun Liu - PhD Candidate on Xunyun Liu - PhD Candidate</title>
+    <link>https://xunyunliu.github.io/</link>
+    <description>Recent content in Xunyun Liu - PhD Candidate on Xunyun Liu - PhD Candidate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Something&#39;s wrong--perhaps a missing \item. \end{thebibliography}</title>
+      <link>https://xunyunliu.github.io/post/latex1/</link>
+      <pubDate>Fri, 26 May 2017 16:09:34 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/post/latex1/</guid>
+      <description>&lt;p&gt;When I compiled my manuscript for the first time, texstudio reports the following error message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Something&#39;s wrong--perhaps a missing \item. \end{thebibliography} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I double checked the source code of the tex file but didn&amp;rsquo;t find anything unusual.&lt;/p&gt;
+
+&lt;p&gt;Soon I realised that I have deleted all the citations in the main content, and that is why the error message is triggered. So the solution is simple: &lt;strong&gt;add a citation from your library&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>E-Storm: Replication-based State Management in Distributed Stream Processing Systems</title>
+      <link>https://xunyunliu.github.io/publication/replicationft/</link>
+      <pubDate>Thu, 25 May 2017 16:55:29 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/replicationft/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The camera-ready version of this paper will be uploaded soon.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&amp;rsquo;s  state management is achieved by a checkpointing framework, which commits  states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we propose E-Storm, a replication-based state management system that actively maintains multiple state backups on different worker nodes. We build a prototype on top of Storm by extending it with monitoring and recovery modules to support inter-task state transfer whenever needed. The experiments carried out on synthetic and real-world streaming applications confirm that E-Storm outperforms the existing checkpointing method in terms of the resulting application performance, obtaining as much as 9.44 times throughput improvement while reducing the application latency down to 9.8%.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://xunyunliu.github.io/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stream Processing in IoT: Foundations, State-of-the-Art, and Future Directions</title>
+      <link>https://xunyunliu.github.io/publication/streamiot/</link>
+      <pubDate>Wed, 25 May 2016 20:02:04 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/streamiot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://xunyunliu.github.io/project/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/project/deep-learning/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://xunyunliu.github.io/project/example-external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Message Logging Protocol Based on User Level Failure Mitigation</title>
+      <link>https://xunyunliu.github.io/publication/ulml/</link>
+      <pubDate>Sat, 25 May 2013 19:32:04 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/ulml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Implementation of a Novel Message Logging Protocol for OpenFOAM</title>
+      <link>https://xunyunliu.github.io/publication/openfoam/</link>
+      <pubDate>Fri, 25 Jan 2013 19:51:25 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/openfoam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Implementation of a Tool for Automatic Similarity Compile Analysis</title>
+      <link>https://xunyunliu.github.io/publication/acachinese/</link>
+      <pubDate>Sat, 25 Aug 2012 19:38:29 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/acachinese/</guid>
+      <description>&lt;p&gt;This paper is written in &lt;em&gt;Chinese&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

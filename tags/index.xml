@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Xunyun Liu - PhD Candidate</title>
+    <link>https://xunyunliu.github.io/tags/</link>
+    <description>Recent content in Tags on Xunyun Liu - PhD Candidate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://xunyunliu.github.io/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/tags/academic/</guid>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://xunyunliu.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://xunyunliu.github.io/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latex</title>
+      <link>https://xunyunliu.github.io/tags/latex/</link>
+      <pubDate>Fri, 26 May 2017 16:09:34 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://xunyunliu.github.io/tags/troubleshooting/</link>
+      <pubDate>Fri, 26 May 2017 16:09:34 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

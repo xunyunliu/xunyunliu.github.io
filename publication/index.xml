@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Xunyun Liu - PhD Candidate</title>
+    <link>https://xunyunliu.github.io/publication/</link>
+    <description>Recent content in Publications on Xunyun Liu - PhD Candidate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>E-Storm: Replication-based State Management in Distributed Stream Processing Systems</title>
+      <link>https://xunyunliu.github.io/publication/replicationft/</link>
+      <pubDate>Thu, 25 May 2017 16:55:29 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/replicationft/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The camera-ready version of this paper will be uploaded soon.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&amp;rsquo;s  state management is achieved by a checkpointing framework, which commits  states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we propose E-Storm, a replication-based state management system that actively maintains multiple state backups on different worker nodes. We build a prototype on top of Storm by extending it with monitoring and recovery modules to support inter-task state transfer whenever needed. The experiments carried out on synthetic and real-world streaming applications confirm that E-Storm outperforms the existing checkpointing method in terms of the resulting application performance, obtaining as much as 9.44 times throughput improvement while reducing the application latency down to 9.8%.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stream Processing in IoT: Foundations, State-of-the-Art, and Future Directions</title>
+      <link>https://xunyunliu.github.io/publication/streamiot/</link>
+      <pubDate>Wed, 25 May 2016 20:02:04 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/streamiot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Message Logging Protocol Based on User Level Failure Mitigation</title>
+      <link>https://xunyunliu.github.io/publication/ulml/</link>
+      <pubDate>Sat, 25 May 2013 19:32:04 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/ulml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Implementation of a Novel Message Logging Protocol for OpenFOAM</title>
+      <link>https://xunyunliu.github.io/publication/openfoam/</link>
+      <pubDate>Fri, 25 Jan 2013 19:51:25 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/openfoam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Implementation of a Tool for Automatic Similarity Compile Analysis</title>
+      <link>https://xunyunliu.github.io/publication/acachinese/</link>
+      <pubDate>Sat, 25 Aug 2012 19:38:29 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/acachinese/</guid>
+      <description>&lt;p&gt;This paper is written in &lt;em&gt;Chinese&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
