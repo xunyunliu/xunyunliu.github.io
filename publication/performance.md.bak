@@ -1,0 +1,25 @@
++++
+abstract = ""
+abstract_short = ""
+authors = ["Xunyun Liu","Rajkumar Buyya"]
+date = "2017-06-08T15:19:18+10:00"
+highlight = true
+image_preview = ""
+math = false
+publication = "IEEE Transactions on Big Data (TBD)"
+publication_short = "IEEE Transactions on Big Data (TBD)"
+publication_types = ["2"]
+selected = false
+title = "Performance-Oriented Deployment of Streaming Applications on Cloud"
+url_code = ""
+url_dataset = ""
+url_pdf = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+
+[header]
+  caption = ""
+  image = ""
+
++++

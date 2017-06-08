@@ -1,0 +1,26 @@
++++
+abstract = ""
+abstract_short = ""
+authors = ["Xunyun Liu","Amir Vahid Dastjerdi","Rodrigo N. Calheiros", "Chenhao Qu", "Rajkumar Buyya"]
+date = "2017-06-08T15:19:31+10:00"
+highlight = true
+image_preview = ""
+math = false
+publication = "ACM Transactions on Autonomous and Adaptive Systems (TAAS)"
+publication_short = "ACM Transactions on Autonomous and Adaptive Systems (TAAS)"
+publication_types = ["2"]
+selected = false
+title = "A Stepwise Auto-Profiling Method for Performance Optimization of Streaming Applications"
+url_code = ""
+url_dataset = ""
+url_pdf = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+
+[header]
+  caption = ""
+  image = ""
+
++++
+
