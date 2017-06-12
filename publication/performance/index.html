@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://xunyunliu.github.io/publication/replicationft/">
+  <link rel="canonical" href="https://xunyunliu.github.io/publication/performance/">
 
   
 
-  <title>E-Storm: Replication-based State Management in Distributed Stream Processing Systems | Xunyun Liu - PhD Candidate</title>
+  <title>Performance-Oriented Deployment of Streaming Applications on Cloud | Xunyun Liu - PhD Candidate</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -126,10 +126,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">E-Storm: Replication-based State Management in Distributed Stream Processing Systems</h1>
+    <h1 itemprop="name">Performance-Oriented Deployment of Streaming Applications on Cloud</h1>
     <span class="pub-authors" itemprop="author">
       
-      Xunyun Liu, Aaron Harwood, Shanika Karunasekera, Benjamin Rubinstein, Rajkumar Buyya
+      Xunyun Liu, Rajkumar Buyya
       
     </span>
     <span class="pull-right">
@@ -138,35 +138,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fxunyunliu.github.io%2fpublication%2fperformance%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f"
+         href="https://twitter.com/intent/tweet?text=Performance-Oriented%20Deployment%20of%20Streaming%20Applications%20on%20Cloud&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2fperformance%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f&amp;title=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2fperformance%2f&amp;title=Performance-Oriented%20Deployment%20of%20Streaming%20Applications%20on%20Cloud"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f&amp;title=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2fperformance%2f&amp;title=Performance-Oriented%20Deployment%20of%20Streaming%20Applications%20on%20Cloud"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems&amp;body=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f">
+         href="mailto:?subject=Performance-Oriented%20Deployment%20of%20Streaming%20Applications%20on%20Cloud&amp;body=https%3a%2f%2fxunyunliu.github.io%2fpublication%2fperformance%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -193,8 +193,8 @@
         <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
         <div class="col-xs-12 col-sm-9">
           
-          <a href="/publication/#1">
-            Conference proceedings
+          <a href="/publication/#2">
+            Journal
           </a>
           
         </div>
@@ -210,7 +210,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">The 46th International Conference on Parallel Processing (ICPP-2017)</div>
+        <div class="col-xs-12 col-sm-9">IEEE Transactions on Big Data (TBD)</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -223,7 +223,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          May, 2017
+          June, 2017
         </div>
       </div>
     </div>
@@ -260,11 +260,9 @@
 
   <div class="space-below"></div>
 
-  <div class="article-style"><p>Abstract: Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&rsquo;s  state management is achieved by a checkpointing framework, which commits  states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.</p>
+  <div class="article-style"><p><strong>Abstract</strong></p>
 
-<p>In this paper, we propose E-Storm, a replication-based state management system that actively maintains multiple state backups on different worker nodes. We build a prototype on top of Storm by extending it with monitoring and recovery modules to support inter-task state transfer whenever needed. The experiments carried out on synthetic and real-world streaming applications confirm that E-Storm outperforms the existing checkpointing method in terms of the resulting application performance, obtaining as much as 9.44 times throughput improvement while reducing the application latency down to 9.8%.</p>
-
-<p><em>The camera-ready version of this paper will be uploaded soon.</em></p>
+<p>Performance of streaming applications are significantly impacted by the deployment decisions made at infrastructure level, i.e., number and configuration of resources allocated for each functional unit of the application. The current deployment practices are mostly platform-oriented, meaning that the deployment configuration is tuned to a static resource-set environment and thus is inflexible to use in cloud with an on-demand resource pool. In this paper, we propose P-Deployer, a deployment framework that enables streaming applications to run on IaaS clouds with satisfactory performance and minimal resource consumption. It achieves performance-oriented, cost-efficient and automated deployment by holistically optimizing the decisions of operator parallelization, resource provisioning, and task mapping. Using a Monitor-Analyze-Plan-Execute (MAPE) architecture, P-Deployer iteratively builds the connection between performance outcome and resource consumption through task profiling and models the deployment problem as a bin-packing variant. Extensive experiments using both synthetic and real-world streaming applications have shown the correctness and scalability of our approach, and demonstrated its superiority compared to platform-oriented methods in terms of resource cost.</p>
 </div>
 
 </div>
@@ -273,13 +271,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://xunyunliu.github.io/publication/streamiot/"><span
-      aria-hidden="true">&larr;</span> Stream Processing in IoT: Foundations, State-of-the-Art, and Future Directions</a></li>
+    <li class="previous"><a href="https://xunyunliu.github.io/publication/replicationft/"><span
+      aria-hidden="true">&larr;</span> E-Storm: Replication-based State Management in Distributed Stream Processing Systems</a></li>
     
 
-    
-    <li class="next"><a href="https://xunyunliu.github.io/publication/performance/">Performance-Oriented Deployment of Streaming Applications on Cloud <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

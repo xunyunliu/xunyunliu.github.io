@@ -11,6 +11,18 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Performance-Oriented Deployment of Streaming Applications on Cloud</title>
+      <link>https://xunyunliu.github.io/publication/performance/</link>
+      <pubDate>Sat, 10 Jun 2017 20:19:18 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/performance/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Performance of streaming applications are significantly impacted by the deployment decisions made at infrastructure level, i.e., number and configuration of resources allocated for each functional unit of the application. The current deployment practices are mostly platform-oriented, meaning that the deployment configuration is tuned to a static resource-set environment and thus is inflexible to use in cloud with an on-demand resource pool. In this paper, we propose P-Deployer, a deployment framework that enables streaming applications to run on IaaS clouds with satisfactory performance and minimal resource consumption. It achieves performance-oriented, cost-efficient and automated deployment by holistically optimizing the decisions of operator parallelization, resource provisioning, and task mapping. Using a Monitor-Analyze-Plan-Execute (MAPE) architecture, P-Deployer iteratively builds the connection between performance outcome and resource consumption through task profiling and models the deployment problem as a bin-packing variant. Extensive experiments using both synthetic and real-world streaming applications have shown the correctness and scalability of our approach, and demonstrated its superiority compared to platform-oriented methods in terms of resource cost.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>E-Storm: Replication-based State Management in Distributed Stream Processing Systems</title>
       <link>https://xunyunliu.github.io/publication/replicationft/</link>
       <pubDate>Thu, 25 May 2017 16:55:29 +1000</pubDate>
