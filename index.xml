@@ -66,6 +66,19 @@
     </item>
     
     <item>
+      <title>D-Storm: Dynamic Resource-Efficient Scheduling of Stream Processing Applications</title>
+      <link>https://xunyunliu.github.io/publication/icpads/</link>
+      <pubDate>Fri, 05 May 2017 11:50:31 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/publication/icpads/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Scheduling streaming applications in Data Stream Management Systems (DSMS) has been investigated for years. However, there lacks an intelligent system that is capable of monitoring application execution, modelling its resource usages, and then adjusting the scheduling plan under different sizes of inputs  without requiring users&amp;rsquo; intervention.
+In this paper, we model the scheduling problem as a bin-packing variant and propose a heuristic-based algorithm to solve it with minimised inter-node communication. We also implement the D-Storm prototype to validate the efficacy and efficiency of our scheduling algorithm, by extending the Apache Storm framework into a self-adaptive MAPE (Monitoring, Analysis, Planning, Execution) architecture. The evaluation carried out on both synthetic and realistic applications proves that D-Storm outperforms the existing resource-aware scheduler and the default Storm scheduler by at least 16.25% in terms of the inter-node traffic reduction and yields a significant amount of resource savings through consolidation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://xunyunliu.github.io/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>

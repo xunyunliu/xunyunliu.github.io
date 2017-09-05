@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://xunyunliu.github.io/publication/replicationft/">
+  <link rel="canonical" href="https://xunyunliu.github.io/publication/icpads/">
 
   
 
-  <title>E-Storm: Replication-based State Management in Distributed Stream Processing Systems | Xunyun Liu - PhD Candidate</title>
+  <title>D-Storm: Dynamic Resource-Efficient Scheduling of Stream Processing Applications | Xunyun Liu - PhD Candidate</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -126,10 +126,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">E-Storm: Replication-based State Management in Distributed Stream Processing Systems</h1>
+    <h1 itemprop="name">D-Storm: Dynamic Resource-Efficient Scheduling of Stream Processing Applications</h1>
     <span class="pub-authors" itemprop="author">
       
-      Xunyun Liu, Aaron Harwood, Shanika Karunasekera, Benjamin Rubinstein, Rajkumar Buyya
+      Xunyun Liu, Rajkumar Buyya
       
     </span>
     <span class="pull-right">
@@ -138,35 +138,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fxunyunliu.github.io%2fpublication%2ficpads%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f"
+         href="https://twitter.com/intent/tweet?text=D-Storm%3a%20Dynamic%20Resource-Efficient%20Scheduling%20of%20Stream%20Processing%20Applications&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2ficpads%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f&amp;title=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2ficpads%2f&amp;title=D-Storm%3a%20Dynamic%20Resource-Efficient%20Scheduling%20of%20Stream%20Processing%20Applications"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f&amp;title=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fxunyunliu.github.io%2fpublication%2ficpads%2f&amp;title=D-Storm%3a%20Dynamic%20Resource-Efficient%20Scheduling%20of%20Stream%20Processing%20Applications"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=E-Storm%3a%20Replication-based%20State%20Management%20in%20Distributed%20Stream%20Processing%20Systems&amp;body=https%3a%2f%2fxunyunliu.github.io%2fpublication%2freplicationft%2f">
+         href="mailto:?subject=D-Storm%3a%20Dynamic%20Resource-Efficient%20Scheduling%20of%20Stream%20Processing%20Applications&amp;body=https%3a%2f%2fxunyunliu.github.io%2fpublication%2ficpads%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -210,7 +210,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">The 46th International Conference on Parallel Processing (ICPP-2017)</div>
+        <div class="col-xs-12 col-sm-9">The 23rd IEEE International Conference on Parallel and Distributed Systems (ICPADS 2017)</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -243,10 +243,6 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://xunyunliu.github.io/pdf/replication.pdf">
-  PDF
-</a>
-
 
 
 
@@ -266,9 +262,8 @@
 
   <div class="article-style"><p><strong>Abstract</strong></p>
 
-<p>Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&rsquo;s  state management is achieved by a checkpointing framework, which commits  states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.</p>
-
-<p>In this paper, we propose E-Storm, a replication-based state management system that actively maintains multiple state backups on different worker nodes. We build a prototype on top of Storm by extending it with monitoring and recovery modules to support inter-task state transfer whenever needed. The experiments carried out on synthetic and real-world streaming applications confirm that E-Storm outperforms the existing checkpointing method in terms of the resulting application performance, obtaining as much as 9.44 times throughput improvement while reducing the application latency down to 9.8%.</p>
+<p>Scheduling streaming applications in Data Stream Management Systems (DSMS) has been investigated for years. However, there lacks an intelligent system that is capable of monitoring application execution, modelling its resource usages, and then adjusting the scheduling plan under different sizes of inputs  without requiring users&rsquo; intervention.
+In this paper, we model the scheduling problem as a bin-packing variant and propose a heuristic-based algorithm to solve it with minimised inter-node communication. We also implement the D-Storm prototype to validate the efficacy and efficiency of our scheduling algorithm, by extending the Apache Storm framework into a self-adaptive MAPE (Monitoring, Analysis, Planning, Execution) architecture. The evaluation carried out on both synthetic and realistic applications proves that D-Storm outperforms the existing resource-aware scheduler and the default Storm scheduler by at least 16.25% in terms of the inter-node traffic reduction and yields a significant amount of resource savings through consolidation.</p>
 </div>
 
 </div>
@@ -277,12 +272,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://xunyunliu.github.io/publication/icpads/"><span
-      aria-hidden="true">&larr;</span> D-Storm: Dynamic Resource-Efficient Scheduling of Stream Processing Applications</a></li>
+    <li class="previous"><a href="https://xunyunliu.github.io/publication/streamiot/"><span
+      aria-hidden="true">&larr;</span> Stream Processing in IoT: Foundations, State-of-the-Art, and Future Directions</a></li>
     
 
     
-    <li class="next"><a href="https://xunyunliu.github.io/publication/performance/">Performance-Oriented Deployment of Streaming Applications on Cloud <span
+    <li class="next"><a href="https://xunyunliu.github.io/publication/replicationft/">E-Storm: Replication-based State Management in Distributed Stream Processing Systems <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
