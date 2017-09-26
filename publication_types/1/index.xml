@@ -8,9 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
     <lastBuildDate>Thu, 25 May 2017 16:55:29 +1000</lastBuildDate>
-    
-	<atom:link href="https://xunyunliu.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>E-Storm: Replication-based State Management in Distributed Stream Processing Systems</title>
@@ -18,8 +16,12 @@
       <pubDate>Thu, 25 May 2017 16:55:29 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/replicationft/</guid>
-      <description>Abstract
-Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&amp;rsquo;s state management is achieved by a checkpointing framework, which commits states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&amp;rsquo;s  state management is achieved by a checkpointing framework, which commits  states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we propose E-Storm, a replication-based state management system that actively maintains multiple state backups on different worker nodes. We build a prototype on top of Storm by extending it with monitoring and recovery modules to support inter-task state transfer whenever needed. The experiments carried out on synthetic and real-world streaming applications confirm that E-Storm outperforms the existing checkpointing method in terms of the resulting application performance, obtaining as much as 9.44 times throughput improvement while reducing the application latency down to 9.8%.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,8 +30,11 @@ Apache Storm is a fault-tolerant, distributed in-memory computation system for p
       <pubDate>Fri, 05 May 2017 11:50:31 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/icpads/</guid>
-      <description>Abstract
-Scheduling streaming applications in Data Stream Management Systems (DSMS) has been investigated for years. However, there lacks an intelligent system that is capable of monitoring application execution, modelling its resource usages, and then adjusting the scheduling plan under different sizes of inputs without requiring users&amp;rsquo; intervention. In this paper, we model the scheduling problem as a bin-packing variant and propose a heuristic-based algorithm to solve it with minimised inter-node communication.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Scheduling streaming applications in Data Stream Management Systems (DSMS) has been investigated for years. However, there lacks an intelligent system that is capable of monitoring application execution, modelling its resource usages, and then adjusting the scheduling plan under different sizes of inputs  without requiring users&amp;rsquo; intervention.
+In this paper, we model the scheduling problem as a bin-packing variant and propose a heuristic-based algorithm to solve it with minimised inter-node communication. We also implement the D-Storm prototype to validate the efficacy and efficiency of our scheduling algorithm, by extending the Apache Storm framework into a self-adaptive MAPE (Monitoring, Analysis, Planning, Execution) architecture. The evaluation carried out on both synthetic and realistic applications proves that D-Storm outperforms the existing resource-aware scheduler and the default Storm scheduler by at least 16.25% in terms of the inter-node traffic reduction and yields a significant amount of resource savings through consolidation.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -56,7 +61,8 @@ Scheduling streaming applications in Data Stream Management Systems (DSMS) has b
       <pubDate>Sat, 25 Aug 2012 19:38:29 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/acachinese/</guid>
-      <description>This paper is written in Chinese.</description>
+      <description>&lt;p&gt;This paper is written in &lt;em&gt;Chinese&lt;/em&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

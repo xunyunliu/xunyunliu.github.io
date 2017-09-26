@@ -1,51 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xunyun Liu - PhD Candidate</title>
+    <title>Xunyun Liu - PhD Candidate on Xunyun Liu - PhD Candidate</title>
     <link>https://xunyunliu.github.io/</link>
-    <description>Recent content on Xunyun Liu - PhD Candidate</description>
+    <description>Recent content in Xunyun Liu - PhD Candidate on Xunyun Liu - PhD Candidate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://xunyunliu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
-      <link>https://xunyunliu.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Test</title>
+      <link>https://xunyunliu.github.io/post/test/</link>
+      <pubDate>Tue, 26 Sep 2017 15:16:50 +1000</pubDate>
       
-      <guid>https://xunyunliu.github.io/home/about/</guid>
-      <description>Biography I am a PhD student under the supervision of Professor Rajkumar Buyya, Dr. Benjamin Rubinstein and Dr. Rodrigo N. Calheiros at the Cloud Computing and Distributed Systems (CLOUDS) Laboratory, the University of Melbourne. My research interests span various aspects of stream processing, including application profiling, performance modeling, SLA-aware application deployment, and light-weight fault tolerance mechanisms.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://xunyunliu.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xunyunliu.github.io/home/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://xunyunliu.github.io/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xunyunliu.github.io/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://xunyunliu.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xunyunliu.github.io/home/contact/</guid>
-      <description></description>
+      <guid>https://xunyunliu.github.io/post/test/</guid>
+      <description>&lt;p&gt;this is a test post.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -54,11 +26,60 @@
       <pubDate>Tue, 26 Sep 2017 14:51:08 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/post/install_matlab/</guid>
-      <description>Download software Go to the download page and download the install file as a zip.
-You may have to log in using your matlab credentials before downloading the installation file.
-Install  unzip the installation file to anywhere you like. open terminal, type the command below:
-sudo sh install  change any settings as you see fit and install the software to its preferred location /usr/local/MATLAB
- active MATLAB with your credentials</description>
+      <description>
+
+&lt;h2 id=&#34;download-software&#34;&gt;Download software&lt;/h2&gt;
+
+&lt;p&gt;Go to the &lt;a href=&#34;https://au.mathworks.com/downloads/&#34; target=&#34;_blank&#34;&gt;download page&lt;/a&gt; and download the install file as a zip.&lt;/p&gt;
+
+&lt;p&gt;You may have to log in using your matlab credentials before downloading the installation file.&lt;/p&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;unzip the installation file to anywhere you like.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;open terminal, type the command below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo sh install
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;change any settings as you see fit and install the software to its preferred location &lt;code&gt;/usr/local/MATLAB&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;active MATLAB with your credentials&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;create-desktop-entry-optional&#34;&gt;Create desktop entry (optional)&lt;/h2&gt;
+
+&lt;p&gt;Type the following commands in the terminal.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo wget http://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png -O /usr/share/icons/matlab.png
+sudo touch /usr/share/applications/matlab.desktop
+sudo gedit /usr/share/applications/matlab.desktop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Paste the following into the document and save it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Icon=/usr/share/icons/matlab.png
+Name=MATLAB R2017b
+Comment=Start MATLAB - The Language of Technical Computing
+Exec=matlab -desktop -useStartupFolderPref
+Categories=Development;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;super&lt;/code&gt; and then you should be able to find the MATLAB icon in the Unity Search.&lt;/p&gt;
+
+&lt;h2 id=&#34;change-initial-working-directory-optional&#34;&gt;Change initial working directory (optional)&lt;/h2&gt;
+
+&lt;p&gt;By default, Matlab startups with the folder in which you run the matlab command. To use the folder specified by the Initial working folder preference, use the &lt;code&gt;-useStartupFolderPref&lt;/code&gt; startup option and change the initial working directory as below.&lt;/p&gt;
+
+&lt;p&gt;On the &lt;code&gt;Home&lt;/code&gt; tab, in the Environment section, click &lt;code&gt;Preferences&lt;/code&gt; Select &lt;code&gt;MATLAB&lt;/code&gt; &amp;gt; &lt;code&gt;General&lt;/code&gt;. Choose an option for the &lt;code&gt;Initial working folder&lt;/code&gt; preference.&lt;/p&gt;
+
+&lt;p&gt;Enjoy using Matlab!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -67,8 +88,10 @@ sudo sh install  change any settings as you see fit and install the software to 
       <pubDate>Fri, 28 Jul 2017 15:19:31 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/profiling/</guid>
-      <description>Abstract
-Data stream management systems (DSMSs) are scalable, highly available, and fault-tolerant systems that aggregate and analyze real-time data in motion. To continuously perform analytics on the fly within the stream, state-of-the-art DSMSs host streaming applications as a set of inter-connected operators, with each operator encapsulating the semantic of a specific operation. For parallel execution on a particular platform, these operators need to be appropriately replicated in multiple instances that split and process the workload simultaneously.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Data stream management systems (DSMSs) are scalable, highly available, and fault-tolerant systems that aggregate and analyze real-time data in motion. To continuously perform analytics on the fly within the stream, state-of-the-art DSMSs host streaming applications as a set of inter-connected operators, with each operator encapsulating the semantic of a specific operation. For parallel execution on a particular platform, these operators need to be appropriately replicated in multiple instances that split and process the workload simultaneously. Because the way operators are partitioned affects the resulting performance of streaming applications, it is essential for DSMSs to have a method to compare different operators and make holistic replication decisions to avoid performance bottlenecks and resource wastage. To this end, we propose a stepwise profiling approach to optimize application performance on a given execution platform. It automatically scales distributed computations over streams based on application features and processing power of provisioned resources, and builds the relationship between provisioned resources and application performance metrics to evaluate the efficiency of the resulting configuration. Experimental results confirm that the proposed approach successfully fulfils its goals with minimal profiling overhead.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -77,8 +100,10 @@ Data stream management systems (DSMSs) are scalable, highly available, and fault
       <pubDate>Sat, 10 Jun 2017 20:19:18 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/performance/</guid>
-      <description>Abstract
-Performance of streaming applications are significantly impacted by the deployment decisions made at infrastructure level, i.e., number and configuration of resources allocated for each functional unit of the application. The current deployment practices are mostly platform-oriented, meaning that the deployment configuration is tuned to a static resource-set environment and thus is inflexible to use in cloud with an on-demand resource pool. In this paper, we propose P-Deployer, a deployment framework that enables streaming applications to run on IaaS clouds with satisfactory performance and minimal resource consumption.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Performance of streaming applications are significantly impacted by the deployment decisions made at infrastructure level, i.e., number and configuration of resources allocated for each functional unit of the application. The current deployment practices are mostly platform-oriented, meaning that the deployment configuration is tuned to a static resource-set environment and thus is inflexible to use in cloud with an on-demand resource pool. In this paper, we propose P-Deployer, a deployment framework that enables streaming applications to run on IaaS clouds with satisfactory performance and minimal resource consumption. It achieves performance-oriented, cost-efficient and automated deployment by holistically optimizing the decisions of operator parallelization, resource provisioning, and task mapping. Using a Monitor-Analyze-Plan-Execute (MAPE) architecture, P-Deployer iteratively builds the connection between performance outcome and resource consumption through task profiling and models the deployment problem as a bin-packing variant. Extensive experiments using both synthetic and real-world streaming applications have shown the correctness and scalability of our approach, and demonstrated its superiority compared to platform-oriented methods in terms of resource cost.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -87,9 +112,15 @@ Performance of streaming applications are significantly impacted by the deployme
       <pubDate>Fri, 26 May 2017 16:09:34 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/post/latex1/</guid>
-      <description>When I compiled my manuscript for the first time, texstudio reports the following error message:
-Something&#39;s wrong--perhaps a missing \item. \end{thebibliography}  I double checked the source code of the tex file but didn&amp;rsquo;t find anything unusual.
-Soon I realised that I have deleted all the citations in the main content, and that is why the error message is triggered. So the solution is simple: add a citation from your library.</description>
+      <description>&lt;p&gt;When I compiled my manuscript for the first time, texstudio reports the following error message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Something&#39;s wrong--perhaps a missing \item. \end{thebibliography} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I double checked the source code of the tex file but didn&amp;rsquo;t find anything unusual.&lt;/p&gt;
+
+&lt;p&gt;Soon I realised that I have deleted all the citations in the main content, and that is why the error message is triggered. So the solution is simple: &lt;strong&gt;add a citation from your library&lt;/strong&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -98,8 +129,12 @@ Soon I realised that I have deleted all the citations in the main content, and t
       <pubDate>Thu, 25 May 2017 16:55:29 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/replicationft/</guid>
-      <description>Abstract
-Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&amp;rsquo;s state management is achieved by a checkpointing framework, which commits states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Apache Storm is a fault-tolerant, distributed in-memory computation system for processing large volumes of high-velocity data in real-time. As an integral part of the fault-tolerance mechanism, Storm&amp;rsquo;s  state management is achieved by a checkpointing framework, which commits  states regularly and recovers lost states from the latest checkpoint. However, this method involves a remote data store for state preservation and access, resulting in significant overheads to the performance of error-free execution.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we propose E-Storm, a replication-based state management system that actively maintains multiple state backups on different worker nodes. We build a prototype on top of Storm by extending it with monitoring and recovery modules to support inter-task state transfer whenever needed. The experiments carried out on synthetic and real-world streaming applications confirm that E-Storm outperforms the existing checkpointing method in terms of the resulting application performance, obtaining as much as 9.44 times throughput improvement while reducing the application latency down to 9.8%.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -108,8 +143,11 @@ Apache Storm is a fault-tolerant, distributed in-memory computation system for p
       <pubDate>Fri, 05 May 2017 11:50:31 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/icpads/</guid>
-      <description>Abstract
-Scheduling streaming applications in Data Stream Management Systems (DSMS) has been investigated for years. However, there lacks an intelligent system that is capable of monitoring application execution, modelling its resource usages, and then adjusting the scheduling plan under different sizes of inputs without requiring users&amp;rsquo; intervention. In this paper, we model the scheduling problem as a bin-packing variant and propose a heuristic-based algorithm to solve it with minimised inter-node communication.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Scheduling streaming applications in Data Stream Management Systems (DSMS) has been investigated for years. However, there lacks an intelligent system that is capable of monitoring application execution, modelling its resource usages, and then adjusting the scheduling plan under different sizes of inputs  without requiring users&amp;rsquo; intervention.
+In this paper, we model the scheduling problem as a bin-packing variant and propose a heuristic-based algorithm to solve it with minimised inter-node communication. We also implement the D-Storm prototype to validate the efficacy and efficiency of our scheduling algorithm, by extending the Apache Storm framework into a self-adaptive MAPE (Monitoring, Analysis, Planning, Execution) architecture. The evaluation carried out on both synthetic and realistic applications proves that D-Storm outperforms the existing resource-aware scheduler and the default Storm scheduler by at least 16.25% in terms of the inter-node traffic reduction and yields a significant amount of resource savings through consolidation.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -118,7 +156,8 @@ Scheduling streaming applications in Data Stream Management Systems (DSMS) has b
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://xunyunliu.github.io/talk/example-talk/</guid>
-      <description>Embed your slides or video here using shortcodes. Further details can easily be added using Markdown and $\rm \LaTeX$ math code.</description>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -136,7 +175,16 @@ Scheduling streaming applications in Data Stream Management Systems (DSMS) has b
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://xunyunliu.github.io/project/deep-learning/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -172,7 +220,8 @@ Scheduling streaming applications in Data Stream Management Systems (DSMS) has b
       <pubDate>Sat, 25 Aug 2012 19:38:29 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/publication/acachinese/</guid>
-      <description>This paper is written in Chinese.</description>
+      <description>&lt;p&gt;This paper is written in &lt;em&gt;Chinese&lt;/em&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

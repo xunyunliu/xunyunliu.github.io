@@ -8,9 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
     <lastBuildDate>Fri, 26 May 2017 16:09:34 +1000</lastBuildDate>
-    
-	<atom:link href="https://xunyunliu.github.io/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/tags/troubleshooting/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Something&#39;s wrong--perhaps a missing \item. \end{thebibliography}</title>
@@ -18,9 +16,15 @@
       <pubDate>Fri, 26 May 2017 16:09:34 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/post/latex1/</guid>
-      <description>When I compiled my manuscript for the first time, texstudio reports the following error message:
-Something&#39;s wrong--perhaps a missing \item. \end{thebibliography}  I double checked the source code of the tex file but didn&amp;rsquo;t find anything unusual.
-Soon I realised that I have deleted all the citations in the main content, and that is why the error message is triggered. So the solution is simple: add a citation from your library.</description>
+      <description>&lt;p&gt;When I compiled my manuscript for the first time, texstudio reports the following error message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Something&#39;s wrong--perhaps a missing \item. \end{thebibliography} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I double checked the source code of the tex file but didn&amp;rsquo;t find anything unusual.&lt;/p&gt;
+
+&lt;p&gt;Soon I realised that I have deleted all the citations in the main content, and that is why the error message is triggered. So the solution is simple: &lt;strong&gt;add a citation from your library&lt;/strong&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

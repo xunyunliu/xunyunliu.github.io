@@ -8,45 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://xunyunliu.github.io/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
-      <link>https://xunyunliu.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xunyunliu.github.io/home/about/</guid>
-      <description>Biography I am a PhD student under the supervision of Professor Rajkumar Buyya, Dr. Benjamin Rubinstein and Dr. Rodrigo N. Calheiros at the Cloud Computing and Distributed Systems (CLOUDS) Laboratory, the University of Melbourne. My research interests span various aspects of stream processing, including application profiling, performance modeling, SLA-aware application deployment, and light-weight fault tolerance mechanisms.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://xunyunliu.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xunyunliu.github.io/home/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://xunyunliu.github.io/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xunyunliu.github.io/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://xunyunliu.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xunyunliu.github.io/home/contact/</guid>
-      <description></description>
-    </item>
+    <atom:link href="/home/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
