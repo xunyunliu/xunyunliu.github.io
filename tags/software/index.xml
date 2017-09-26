@@ -26,7 +26,7 @@
 
 &lt;p&gt;If the default language of your Ubuntu system is English, first install the required language support and make fcitx as your input method system.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;install_sogou/1.png&#34; alt=&#34; figure 1&#34; title=&#34;install language support&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xunyunliu.github.io/img/install_sogou/1.png&#34; alt=&#34; figure 1&#34; title=&#34;install language support&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;if you like being more google-style, give google pinyin a try:
         sudo apt-get install fcitx-googlepinyin&lt;/p&gt;
@@ -34,16 +34,18 @@
 &lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;install the .deb with with the package manager, or using the following command.
-    sudo apt-get install ./sogoupinyin_2.1.0.0082_amd64.deb&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;install the .deb with with the package manager, or using the following command.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install ./sogoupinyin_2.1.0.0082_amd64.deb 
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Restart your computer to be able to see  Sogou input in the text entry list&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Remove all the shortcut for toggling input except for the one that scrolls from all selections. See images attached. This is to avoid possible conflicts between different hot key settings.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&#34;install_sogou/2.png&#34; alt=&#34; figure 2&#34; title=&#34;Hot key settings&#34; /&gt;
-&lt;img src=&#34;install_sogou/3.png&#34; alt=&#34; figure 3&#34; title=&#34;Hot key settings&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xunyunliu.github.io/img/install_sogou/2.png&#34; alt=&#34; figure 2&#34; title=&#34;Hot key settings&#34; /&gt;
+&lt;img src=&#34;https://xunyunliu.github.io/img/install_sogou/3.png&#34; alt=&#34; figure 3&#34; title=&#34;Hot key settings&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
