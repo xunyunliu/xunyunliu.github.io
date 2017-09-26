@@ -1,267 +1,187 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/profiling/</loc>
-      <lastmod>2017-07-28T15:19:31+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/home/about/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/performance/</loc>
-      <lastmod>2017-06-10T20:19:18+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/home/publications/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/post/latex1/</loc>
-      <lastmod>2017-05-26T16:09:34+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/home/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/replicationft/</loc>
-      <lastmod>2017-05-25T16:55:29+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/home/contact/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/icpads/</loc>
-      <lastmod>2017-05-05T11:50:31+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/post/install_matlab/</loc>
+    <lastmod>2017-09-26T14:51:08+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/profiling/</loc>
+    <lastmod>2017-07-28T15:19:31+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/performance/</loc>
+    <lastmod>2017-06-10T20:19:18+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/post/latex1/</loc>
+    <lastmod>2017-05-26T16:09:34+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/replicationft/</loc>
+    <lastmod>2017-05-25T16:55:29+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/icpads/</loc>
+    <lastmod>2017-05-05T11:50:31+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/streamiot/</loc>
-      <lastmod>2016-05-25T20:02:04+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/tags/academic/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/talk/example-talk/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/post/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/ulml/</loc>
-      <lastmod>2013-05-25T19:32:04+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/openfoam/</loc>
-      <lastmod>2013-01-25T19:51:25+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/talk/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication/acachinese/</loc>
-      <lastmod>2012-08-25T19:38:29+10:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/streamiot/</loc>
+    <lastmod>2016-05-25T20:02:04+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication_types/1/</loc>
-      <lastmod>2017-05-25T16:55:29+10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/project/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication_types/2/</loc>
-      <lastmod>2017-07-28T15:19:31+10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/project/example-external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication_types/6/</loc>
-      <lastmod>2016-05-25T20:02:04+10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/ulml/</loc>
+    <lastmod>2013-05-25T19:32:04+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/openfoam/</loc>
+    <lastmod>2013-01-25T19:51:25+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication/acachinese/</loc>
+    <lastmod>2012-08-25T19:38:29+10:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication_types/1/</loc>
+    <lastmod>2017-05-25T16:55:29+10:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/tags/latex/</loc>
-      <lastmod>2017-05-26T16:09:34+10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication_types/2/</loc>
+    <lastmod>2017-07-28T15:19:31+10:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/publication_types/6/</loc>
+    <lastmod>2016-05-25T20:02:04+10:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/publication_types/</loc>
-      <lastmod>2017-05-25T16:55:29+10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/tags/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/tags/troubleshooting/</loc>
-      <lastmod>2017-05-26T16:09:34+10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/tags/demo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://xunyunliu.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://xunyunliu.github.io/home/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xunyunliu.github.io/tags/latex/</loc>
+    <lastmod>2017-05-26T16:09:34+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xunyunliu.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xunyunliu.github.io/publication_types/</loc>
+    <lastmod>2017-05-25T16:55:29+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xunyunliu.github.io/tags/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xunyunliu.github.io/tags/troubleshooting/</loc>
+    <lastmod>2017-05-26T16:09:34+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xunyunliu.github.io/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
 </urlset>

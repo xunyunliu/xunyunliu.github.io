@@ -8,7 +8,22 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://xunyunliu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install Matlab 2017b on Ubuntu 16.04</title>
+      <link>https://xunyunliu.github.io/post/install_matlab/</link>
+      <pubDate>Tue, 26 Sep 2017 14:51:08 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/post/install_matlab/</guid>
+      <description>Download software Go to the download page and download the install file as a zip.
+You may have to log in using your matlab credentials before downloading the installation file.
+Install  unzip the installation file to anywhere you like. open terminal, type the command below:
+sudo sh install  change any settings as you see fit and install the software to its preferred location /usr/local/MATLAB
+ active MATLAB with your credentials</description>
+    </item>
     
     <item>
       <title>Something&#39;s wrong--perhaps a missing \item. \end{thebibliography}</title>
@@ -16,15 +31,9 @@
       <pubDate>Fri, 26 May 2017 16:09:34 +1000</pubDate>
       
       <guid>https://xunyunliu.github.io/post/latex1/</guid>
-      <description>&lt;p&gt;When I compiled my manuscript for the first time, texstudio reports the following error message:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Something&#39;s wrong--perhaps a missing \item. \end{thebibliography} 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I double checked the source code of the tex file but didn&amp;rsquo;t find anything unusual.&lt;/p&gt;
-
-&lt;p&gt;Soon I realised that I have deleted all the citations in the main content, and that is why the error message is triggered. So the solution is simple: &lt;strong&gt;add a citation from your library&lt;/strong&gt;.&lt;/p&gt;
-</description>
+      <description>When I compiled my manuscript for the first time, texstudio reports the following error message:
+Something&#39;s wrong--perhaps a missing \item. \end{thebibliography}  I double checked the source code of the tex file but didn&amp;rsquo;t find anything unusual.
+Soon I realised that I have deleted all the citations in the main content, and that is why the error message is triggered. So the solution is simple: add a citation from your library.</description>
     </item>
     
   </channel>
