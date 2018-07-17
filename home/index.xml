@@ -1,14 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Xunyun Liu - PhD Candidate</title>
+    <title>Homes on Xunyun Liu - PhD(Melb)</title>
     <link>https://xunyunliu.github.io/home/</link>
-    <description>Recent content in Homes on Xunyun Liu - PhD Candidate</description>
+    <description>Recent content in Homes on Xunyun Liu - PhD(Melb)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +1000</lastBuildDate>
+    
+	<atom:link href="https://xunyunliu.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://xunyunliu.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/about/</guid>
+      <description>Biography In July 2018, I completed my PhD study at the Cloud Computing and Distributed Systems (CLOUDS) Laboratory, the University of Melbourne, where my research was supervised by Professor Rajkumar Buyya, Assoc. Prof. Benjamin Rubinstein and Dr. Rodrigo N. Calheiros. My interests mainly reside in robust resource management and task scheduling, aiming to improve the performance and reliability aspects of distributed stream processing systems. Areas with my involvement include application profiling, performance modeling, SLA-aware application deployment, and light-weight fault tolerance mechanisms.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://xunyunliu.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://xunyunliu.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://xunyunliu.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://xunyunliu.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://xunyunliu.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://xunyunliu.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+I am a teaching instructor for the following courses at University X:
+ CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://xunyunliu.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://xunyunliu.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
