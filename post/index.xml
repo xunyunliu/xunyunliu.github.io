@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Message Broadcaster Demo for Distributed Systems</title>
+      <link>https://xunyunliu.github.io/post/messagebroadcaster/</link>
+      <pubDate>Mon, 20 Aug 2018 10:25:19 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/post/messagebroadcaster/</guid>
+      <description>A message broadcaster implemented in a client-server architecture to demonstrate the use of multi-threading and socket communication in Java.
+ Clients read server IP/port from config file Clients establish a TCP connection with the server Users type a message using the console, the client sends it to the server, the server broadcasts that message to all clients currently connected (including the sending client) and the clients display the message to the user.</description>
+    </item>
+    
+    <item>
       <title>How to install Sogou input on Ubuntu 16.04</title>
       <link>https://xunyunliu.github.io/post/install_sogou/</link>
       <pubDate>Tue, 26 Sep 2017 15:16:50 +1000</pubDate>

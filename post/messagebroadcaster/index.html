@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,10 +13,15 @@
   
   
   
-  <meta name="description" content="Postdoc Research Fellow">
+    
+      
+    
+  
+  <meta name="description" content="A message broadcaster implemented in a client-server architecture to demonstrate the use of multi-threading and socket communication in Java.
+ Clients read server IP/port from config file Clients establish a TCP connection with the server Users type a message using the console, the client sends it to the server, the server broadcasts that message to all clients currently connected (including the sending client) and the clients display the message to the user.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://xunyunliu.github.io/tags/">
+  <link rel="alternate" hreflang="en-us" href="https://xunyunliu.github.io/post/messagebroadcaster/">
 
   
 
@@ -75,15 +78,12 @@
   
 
   
-  <link rel="alternate" href="https://xunyunliu.github.io/tags/index.xml" type="application/rss+xml" title="Xunyun Liu - PhD(Melb)">
-  <link rel="feed" href="https://xunyunliu.github.io/tags/index.xml" type="application/rss+xml" title="Xunyun Liu - PhD(Melb)">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://xunyunliu.github.io/tags/">
+  <link rel="canonical" href="https://xunyunliu.github.io/post/messagebroadcaster/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -91,19 +91,22 @@
   <meta property="twitter:creator" content="@LakeOfMemory">
   
   <meta property="og:site_name" content="Xunyun Liu - PhD(Melb)">
-  <meta property="og:url" content="https://xunyunliu.github.io/tags/">
-  <meta property="og:title" content="Tags | Xunyun Liu - PhD(Melb)">
-  <meta property="og:description" content="Postdoc Research Fellow">
+  <meta property="og:url" content="https://xunyunliu.github.io/post/messagebroadcaster/">
+  <meta property="og:title" content="Message Broadcaster Demo for Distributed Systems | Xunyun Liu - PhD(Melb)">
+  <meta property="og:description" content="A message broadcaster implemented in a client-server architecture to demonstrate the use of multi-threading and socket communication in Java.
+ Clients read server IP/port from config file Clients establish a TCP connection with the server Users type a message using the console, the client sends it to the server, the server broadcasts that message to all clients currently connected (including the sending client) and the clients display the message to the user."><meta property="og:image" content="https://xunyunliu.github.io/img/MessageBroadcaster.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-01-01T00:00:00&#43;11:00">
+  <meta property="article:published_time" content="2018-08-20T10:25:19&#43;10:00">
+  
+  <meta property="article:modified_time" content="2018-08-20T10:25:19&#43;10:00">
   
 
   
 
   
 
-  <title>Tags | Xunyun Liu - PhD(Melb)</title>
+  <title>Message Broadcaster Demo for Distributed Systems | Xunyun Liu - PhD(Melb)</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -237,85 +240,168 @@
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/MessageBroadcaster.png" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption"><a href="https://github.com/xunyunliu/MessageBroadcasterDemo" target="_blank">Github link</a></span>
+</div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+    <h1 itemprop="name">Message Broadcaster Demo for Distributed Systems</h1>
 
-  <h1>Tags</h1>
+    
 
-  
-
-  
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/academic/">Content tagged as &#39;Academic&#39;</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/deep-learning/">Deep-learning</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/demo/">Demo</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/demonstration/">Demonstration</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/java/">Java</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/latex/">Latex</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/software/">Software</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/troubleshooting/">Troubleshooting</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://xunyunliu.github.io/tags/ubuntu/">Ubuntu</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
+<div class="article-metadata">
 
   
 
+  <span class="article-date">
+    
+    <meta content="2018-08-20 10:25:19 &#43;1000 AEST" itemprop="datePublished">
+    <time datetime="2018-08-20 10:25:19 &#43;1000 AEST" itemprop="dateModified">
+      Aug 20, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Xunyun Liu">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="https://xunyunliu.github.io/post/messagebroadcaster/#disqus_thread"></a>
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Message%20Broadcaster%20Demo%20for%20Distributed%20Systems&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpost%2fmessagebroadcaster%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fxunyunliu.github.io%2fpost%2fmessagebroadcaster%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fxunyunliu.github.io%2fpost%2fmessagebroadcaster%2f&amp;title=Message%20Broadcaster%20Demo%20for%20Distributed%20Systems"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fxunyunliu.github.io%2fpost%2fmessagebroadcaster%2f&amp;title=Message%20Broadcaster%20Demo%20for%20Distributed%20Systems"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Message%20Broadcaster%20Demo%20for%20Distributed%20Systems&amp;body=https%3a%2f%2fxunyunliu.github.io%2fpost%2fmessagebroadcaster%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
 
 </div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>A message broadcaster implemented in a client-server architecture to demonstrate the use of multi-threading and socket communication in Java.</p>
+
+<ul>
+<li>Clients read server IP/port from config file</li>
+<li>Clients establish a TCP connection with the server</li>
+<li>Users type a message using the console, the client sends it to the server, the server broadcasts that message to all clients currently connected (including the sending client) and the clients display the message to the user.</li>
+</ul>
+
+<a href="https://xunyunliu.github.io/pdf/messagebroadcaster.pdf" target="_blank">Download the slide for this demo</a>
+
+<p>Code can be found here: <a href="https://github.com/xunyunliu/MessageBroadcasterDemo" target="_blank">github</a>.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="label label-default" href="https://xunyunliu.github.io/tags/java/">java</a>
+  
+  <a class="label label-default" href="https://xunyunliu.github.io/tags/demonstration/">demonstration</a>
+  
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xunyunliu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
 <footer class="site-footer">
   <div class="container">
 
@@ -404,6 +490,4 @@
 
   </body>
 </html>
-
-
 

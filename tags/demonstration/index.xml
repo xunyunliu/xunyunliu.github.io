@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demonstration on Xunyun Liu - PhD(Melb)</title>
+    <link>https://xunyunliu.github.io/tags/demonstration/</link>
+    <description>Recent content in Demonstration on Xunyun Liu - PhD(Melb)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
+    <lastBuildDate>Mon, 20 Aug 2018 10:25:19 +1000</lastBuildDate>
+    
+	<atom:link href="https://xunyunliu.github.io/tags/demonstration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Message Broadcaster Demo for Distributed Systems</title>
+      <link>https://xunyunliu.github.io/post/messagebroadcaster/</link>
+      <pubDate>Mon, 20 Aug 2018 10:25:19 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/post/messagebroadcaster/</guid>
+      <description>A message broadcaster implemented in a client-server architecture to demonstrate the use of multi-threading and socket communication in Java.
+ Clients read server IP/port from config file Clients establish a TCP connection with the server Users type a message using the console, the client sends it to the server, the server broadcasts that message to all clients currently connected (including the sending client) and the clients display the message to the user.</description>
+    </item>
+    
+  </channel>
+</rss>
