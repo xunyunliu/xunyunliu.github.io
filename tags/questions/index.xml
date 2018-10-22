@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Questions on Xunyun Liu - PhD(Melb)</title>
+    <link>https://xunyunliu.github.io/tags/questions/</link>
+    <description>Recent content in Questions on Xunyun Liu - PhD(Melb)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
+    <lastBuildDate>Sat, 20 Oct 2018 10:25:19 +1000</lastBuildDate>
+    
+	<atom:link href="https://xunyunliu.github.io/tags/questions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sample Questions on Distribtued Systems</title>
+      <link>https://xunyunliu.github.io/post/samepledsquestions/</link>
+      <pubDate>Sat, 20 Oct 2018 10:25:19 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/post/samepledsquestions/</guid>
+      <description>Download the slide in pdf format.</description>
+    </item>
+    
+  </channel>
+</rss>

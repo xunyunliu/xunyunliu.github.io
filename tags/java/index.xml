@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Xunyun Liu</copyright>
-    <lastBuildDate>Mon, 20 Aug 2018 10:25:19 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Oct 2018 10:25:19 +1000</lastBuildDate>
     
 	<atom:link href="https://xunyunliu.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sample Questions on Distribtued Systems</title>
+      <link>https://xunyunliu.github.io/post/samepledsquestions/</link>
+      <pubDate>Sat, 20 Oct 2018 10:25:19 +1000</pubDate>
+      
+      <guid>https://xunyunliu.github.io/post/samepledsquestions/</guid>
+      <description>Download the slide in pdf format.</description>
+    </item>
     
     <item>
       <title>Message Broadcaster Demo for Distributed Systems</title>
